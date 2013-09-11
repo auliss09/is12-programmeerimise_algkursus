@@ -7,7 +7,7 @@ print 3%5
 print -6
 print +6
 print abs (5)
-print int (3)
+print int (3.4)
 print long (3)
 print float (9)
 print complex (5,6)
