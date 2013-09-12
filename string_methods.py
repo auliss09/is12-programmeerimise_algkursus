@@ -1,8 +1,8 @@
 print "abc".capitalize()
 print "abcd".center(20,"-")
 print "abcde".count("a", 0, 100)
-print "abc".encode('UTF-8','strict')
-print "abc".decode('UTF-8','strict')
+print "abcdefghijklmn".encode('base64','strict')
+print "YWJjZGVmZ2hpamtsbW4=".decode('base64','strict')
 str = "minu esimene progemine"
 print str.endswith("progemine")
 print str.endswith("progemine",20)
