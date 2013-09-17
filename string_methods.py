@@ -1,9 +1,13 @@
-
 print "abc".capitalize()
 print "abcd".center(20,"-")
 print "abcde".count("a", 0, 100)
 print "abc".encode('UTF-8','strict')
 print "abc".decode('UTF-8','strict')
+print "abc".capitalize()
+print "abcd".center(20,"-")
+print "abcde".count("a", 0, 100)
+print "abcdefghijklmn".encode('base64','strict')
+print "YWJjZGVmZ2hpamtsbW4=".decode('base64','strict')
 str = "minu esimene progemine"
 print str.endswith("progemine")
 print str.endswith("progemine",20)
@@ -31,7 +35,9 @@ print "12defj4".istitle()
 print "12defj4!".istitle()
 print "12defj4".isupper()
 print "12defj4!".isupper()
-#join
+mark = " "
+sona = "Mis", "Sa", "siin", "teed?"
+print mark.join(sona)
 print str.ljust(25, "@")
 aja = "AdaAJIUjhJ"
 print aja.lower()
@@ -54,6 +60,9 @@ print "asd asd farw asd".title()
 #translate
 print "asdHGhg".upper()
 print "kjashd asdff sdfsdfsdf sd asd".zfill(50)
+print "asdHGhg".upper()
+print "aulis".zfill(10)
+print "123".zfill(6)
 #isnumeric
 #isdecimal
 
