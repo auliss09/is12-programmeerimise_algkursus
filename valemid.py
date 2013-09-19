@@ -10,17 +10,17 @@ P = 2*(A+B)
 print P
 
 # Silindri ruumala
-pii=3.14
-R=69
-H=12
-V=(1/3)*pii*(R*R)*H
+pii = 3.14
+R = 69
+H = 12
+V = (1/3)*pii*(R*R)*H
 
 # pythagoras
-a=13
-a1=13*a
-b=21 
-b1=21*b
-cruudus= (a1+b1)
+a = 13
+a1 = 13*a
+b = 21 
+b1 = 21*b
+cruudus = (a1+b1)
 print c 
 
 # e=mc^2
@@ -30,9 +30,9 @@ E = M*C*C
 print E
 
 # püstprisma St
-Sk=76
-Sp=53
-St=Sk+(2*Sp)
+Sk = 76
+Sp = 53
+St = Sk+(2*Sp)
 print St
 
 # i=u/r
@@ -47,10 +47,10 @@ V1 = A*A*A
 print V1
 
 # koonuse St
-pii=3.14
-R=25
-m=5
-kSt=pii*R*(R+m)
+pii = 3.14
+R = 25
+m = 5
+kSt = pii*R*(R+m)
 
 # sk=n*a*m/2
 N = 14.0
