@@ -7,12 +7,12 @@ min = 0
 max = len(kuulid)-1
 kuul = randint(min, max)
 kuul1 = kuulid[kuul]
-del kuulid[kuul]
 print kuul1
+del kuulid[kuul]
 
 min = 0
 max = len(kuulid)-1
 kuul = randint(min, max)
 kuul2 = kuulid[kuul]
-del kuulid[kuul]
 print kuul2
+del kuulid[kuul]
