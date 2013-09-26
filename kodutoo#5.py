@@ -4,13 +4,14 @@ from random import randint
 
 klass = ['Aigar', 'Aleks', 'Ardo', 'Art', 'Arti', 'Aulis', 'Egert', 'Eveli', 'Janar', 'Janis', 'Jasper', 'Kairo', 'Katerin', 'Kerto', 'Mariin', 'Mario', 'Rait', 'Timo']
 
-min = 0
-max = len(klass)-1
-opilane = randint(min, max)
-element = klass[opilane]
-del klass[opilane]
-klass = klass + [element]
-print klass
+for i in xrange(100):
+	min = 0
+	max = len(klass)-1
+	opilane = randint(min, max)
+	element = klass[opilane]
+	del klass[opilane]
+	klass = klass + [element]
+	print klass
 
 
 
