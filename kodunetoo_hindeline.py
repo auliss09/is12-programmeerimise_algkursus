@@ -2,10 +2,11 @@
 # -*- coding: utf8 -*-
 
 # arvude keskmine
-
-arvud = (41,24)  
-keskmine = sum(arvud)/float(len(arvud)) 
-print "Arvude 41 ja 24 keskmine on: " + str(keskmine) 
+def keskmine():
+	arvud = (41,24)  
+	keskmine = sum(arvud)/float(len(arvud)) 
+	print "Arvude 41 ja 24 keskmine on: " + str(keskmine) 
+keskmine()
 
 print""
 print "----------------------------------------"
