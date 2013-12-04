@@ -6,7 +6,7 @@ while i < 5:
         j = j + 1
     j = 5
     while i < j:
-       	print "#",
-        j = j - 1
+		print "#",
+		j = j - 1
     print
     i = i + 1
